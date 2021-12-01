@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"></script>
+    <script defer src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Modern Webpage with Lazy Loading</h1>
+    </header>
+
+    <main>
+        <section>
+            <p id="introduction">Please, watch these images<br>
+                gracefully float onto your screen,<br>
+                demonstrating the wonders of <br>
+                the Intersection Observer API
+            </p>
+            <img id="pic1" class="slide" width="600px" height="500px" src="images/city.jpg" alt="city">
+            <img id="pic2" width="600px" height="500px" data-src="images/ocean.jpg" src="" alt="ocean">
+            <img id="pic3" width="600px" height="500px" data-src="images/mountains.jpg" src="" alt="mountains">
+            <img id="pic4" width="600px" height="500px" data-src="images/lake.jpg" src="" alt="lake">
+            <img id="pic5" width="600px" height="500px" data-src="images/palmtrees.jpg" src="" alt="palmtrees">
+            <img id="pic6" width="600px" height="500px" data-src="images/waterfall.jpg" src="" alt="waterfall">
+        </section>
+    </main>
+    
+    <footer>
+        <div class="centered">
+            <h2>End of page!</h2>
+            <p>Thanks for getting this far!</p>
+            <nav class="flex-nav">
+                <ul>
+                    <li><a href="#">These</a></li>
+                    <li><a href="#">Links</a></li>
+                    <li><a href="#">All</a></li>
+                </ul>
+                <ul>
+                     <li><a href="#">Go</a></li>
+                    <li><a href="#">Back</a></li>
+                    <li><a href="#">Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
